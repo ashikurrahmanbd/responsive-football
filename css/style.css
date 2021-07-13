@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6{
         
 }
 p{
-        
+        font-size: 16px;
 }
 a{
         text-decoration: none;
@@ -96,10 +96,49 @@ nav.menu ul li a:hover{
         display: inline-block;
         margin-top:25px;
 }
+.left-content a i{
+        margin-left: 5px;
+}
 .right-image{
         width:50%;
 }
 .right-image img{
         width: 555px;
         height: auto;
+}
+
+/* players section css */
+.players-section{
+        padding: 50px 0;
+}
+.players-container{
+        width:100%;
+        max-width:1050px;
+        margin:0 auto;
+}
+.all-players{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.single-player{
+        padding: 10px;
+        width: 330px;
+        height: auto;
+        box-shadow: 1px 1px 7px #000;
+        background: #fff;
+        margin:15px 0;
+}
+
+.single-player img{
+        width: 100%;
+}
+
+.single-player h2{
+        margin: 0;
+}
+.single-player p{
+        margin-top:0;
+        color: #6C6C6C;
+        margin-top: 10px;
 }
