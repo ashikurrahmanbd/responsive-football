@@ -37,6 +37,7 @@ a.comon-button{
         color:#fff;
         font-size:16px;
         transition: 0.4s;
+        display: inline-block;
 }
 a.comon-button:hover{
         background: #bd2422;
@@ -85,18 +86,18 @@ nav.menu ul li a:hover{
 .banner .left-content{
         width:50%;
 }
-.left-content h2{
+.banner .left-content h2{
         font-size: 64px;
         line-height: 80px;
         color:#fff;
         font-weight: bold;
         margin:0;
 }
-.left-content a{
+.banner .left-content a{
         display: inline-block;
         margin-top:25px;
 }
-.left-content a i{
+.banner .left-content a i{
         margin-left: 5px;
 }
 .right-image{
@@ -141,4 +142,85 @@ nav.menu ul li a:hover{
         margin-top:0;
         color: #6C6C6C;
         margin-top: 10px;
+}
+
+/* High Light section CSS */
+.highlight{
+        padding: 50px 0;
+}
+.highlight-elements{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+}
+.highlight-left{
+        flex: 50%;
+        max-width:calc(50% - 50px);
+        margin-right: px;
+}
+
+.highlight-left a{
+       margin-top: 15px;
+}
+
+.highlight-left h2{
+        font-size: 48px;
+        line-height: 55px;
+        margin:0;
+}
+
+.highlight-right{
+        flex: 50%;
+        max-width:50%;
+}
+
+
+
+
+
+/* Footer section css  */
+footer.footer{
+        padding: 50px 0;
+}
+.footer-container{
+        width: 500px;
+        margin: auto;
+}
+
+.footer-elements .logo{
+        max-width:400px;
+        height: auto;
+}
+.footer-elements .social-icons{}
+
+.social-icons ul{
+        text-align: center;
+        margin: 10px 0;
+}
+.social-icons ul li{
+        display: inline-block;
+        margin: 0 2px;
+
+}
+.social-icons ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+        background:  rgba(204, 204, 204, 0.5);
+        border-radius: 50%;
+        color:#969bab;
+        transition: 0.4s;
+}
+.social-icons ul li a:hover{
+        background: #bd2422;
+
+}
+.social-icons ul li a:hover i{
+        color: #fff;
+}
+.footer-elements p.copyright{
+        text-align: center;
+        font-size: 18px;
 }
