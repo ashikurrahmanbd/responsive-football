@@ -315,9 +315,14 @@ footer.footer{
 }
 
 .footer-elements .logo{
-        max-width:400px;
+        max-width:450px;
         height: auto;
+        margin: 0 auto;
 }
+.footer-elements .logo img{
+        width:100%;
+}
+
 .footer-elements .social-icons{}
 
 .social-icons ul{
