@@ -56,6 +56,20 @@ header.header-section{
 nav.menu ul{
        
 }
+
+nav.menu .mobile-menu{
+        display: none;
+}
+.mobile-menu i{
+        font-size: 22px;
+        color:#fff;
+        transition: 0.3s;
+}
+.mobile-menu i:hover{
+        cursor: pointer;
+        color:#eb4d4b;
+}
+
 nav.menu ul li{
         display: inline-block;
 }
