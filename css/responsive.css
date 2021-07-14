@@ -9,6 +9,9 @@
         img{
                 width: 100%;
         }
+        body{
+                overflow-x: hidden;
+        }
        .container{
                width: 100%;
                max-width:648px;
