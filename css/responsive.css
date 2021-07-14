@@ -63,6 +63,12 @@
                width: 100%;
        }
 
+       /* palyer section */
+       .single-player{
+               width: 100%;
+                margin: 15px auto;
+       }
+
        /* hide for now */
        /* .banner{
                display:none;
