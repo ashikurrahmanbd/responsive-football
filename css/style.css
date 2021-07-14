@@ -46,7 +46,10 @@ a.comon-button:hover{
 /* Main CSS */
 header.header-section{
         background: #130f40;
+        transition: 0.5s;
+      
 }
+
 .header-top{
         display: flex;
         align-items: center;
@@ -111,6 +114,29 @@ nav.menu ul li a:hover{
         display: inline-block;
         margin-top:25px;
 }
+/* header section modify on hover */
+.header-section:hover {
+        background: #2980b9;
+}
+/* end of header modify by hover */
+
+/* a simple animation on header section hover */
+.header-section:hover .banner .left-content a{
+        animation-name: buttonscale;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+@keyframes buttonscale {
+        from{
+                transform: scale(1.0);
+        }
+        to{
+                transform: scale(1.1)
+        }
+}
+/* end animation */
+
+
 .banner .left-content a i{
         margin-left: 5px;
 }

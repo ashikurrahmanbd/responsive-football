@@ -89,11 +89,28 @@
                margin-right: 1px;
               
        }
+       /* left single blog  latest news*/
+
+       .single-blog .blog-thumb {
+                flex: 100%;
+                max-width: 100%;
+        }
+        .single-blog .blog-info{
+                flex: 100%;
+                max-width: calc(100% - 1px);
+                margin-left: 1px;
+        }
+       /* end */
+
+
        .blog-right{
                width: 100%;
                margin-left: 1px;
        }
-
+       .blog-right img{
+               width:100%;
+               height: auto;
+       }
 
        /* highlight element */
        .highlight-elements{
@@ -113,6 +130,6 @@
                 width: 100%;
         }
 
-        
+
        
 }
