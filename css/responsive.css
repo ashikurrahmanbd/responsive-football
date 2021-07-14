@@ -4,7 +4,7 @@
 
 }
       
-/* On screens that are 600px wide or less,  Smarphone Devices */
+/* On screens that are 668px wide or less,  Smarphone Devices */
 @media screen and (max-width: 668px) {
        .container{
                width: 100%;
@@ -94,14 +94,25 @@
                margin-left: 1px;
        }
 
-       /* hide for now */
-       
-       .highlight{
-               display: none;
+
+       /* highlight element */
+       .highlight-elements{
+               flex-wrap: wrap;
        }
 
+       .highlight-left {
+                flex: 100%;
+                max-width: calc(100% - 50px);
+                margin-bottom:25px;
+        }
+        .highlight-right{
+                flex:100%;
+                max-width: 100%;
+        }
+        .highlight-right img{
+                width: 100%;
+        }
+
+        
        
-       /* .latest-news{
-               display: none;
-       } */
 }
